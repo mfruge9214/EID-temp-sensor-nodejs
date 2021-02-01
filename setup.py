@@ -1,5 +1,8 @@
 # based on https://www.microsoft.com/en-us/sql-server/developer-get-started/python/windows/step/2.html
 
+# to create the database, run this on the command line:
+# sqlcmd -S localhost -U eid -P eid -Q "CREATE DATABASE SensorData;"
+
 import pyodbc
 server = 'localhost'
 database = 'SensorData'
