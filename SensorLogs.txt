@@ -1,0 +1,1245 @@
+Created Sensors
+tedious deprecated The default value for `config.options.enableArithAbort` will change from `false` to `true` in the next major version of `tedious`. Set the value to `true` or `false` explicitly to silence this message. node_modules\mssql\lib\tedious\connection-pool.js:61:23
+tedious deprecated The default value for `config.options.enableArithAbort` will change from `false` to `true` in the next major version of `tedious`. Set the value to `true` or `false` explicitly to silence this message. node_modules\mssql\lib\tedious\connection-pool.js:61:23
+tedious deprecated The default value for `config.options.enableArithAbort` will change from `false` to `true` in the next major version of `tedious`. Set the value to `true` or `false` explicitly to silence this message. node_modules\mssql\lib\tedious\connection-pool.js:61:23
+tedious deprecated The default value for `config.options.enableArithAbort` will change from `false` to `true` in the next major version of `tedious`. Set the value to `true` or `false` explicitly to silence this message. node_modules\mssql\lib\tedious\connection-pool.js:61:23
+ Created new sensor
+ Created new sensor
+ Sensor Number: 4
+ Created new sensor
+ Sensor Number: 3
+ Created new sensor
+ Sensor Number: 1
+ Sensor Number: 2
+ Connection to DB Successful
+ Connection to DB Successful
+TRUNCATE TABLE dbo.Sensor_Data_Test
+TRUNCATE TABLE dbo.Sensor_Data_Test
+Table Cleared
+Table Cleared
+ Connection to DB Successful
+TRUNCATE TABLE dbo.Sensor_Data_Test
+ Connection to DB Successful
+Table Cleared
+TRUNCATE TABLE dbo.Sensor_Data_Test
+Table Cleared
+{ recordsets: [], recordset: undefined, output: {}, rowsAffected: [] }
+{ recordsets: [], recordset: undefined, output: {}, rowsAffected: [] }
+{ recordsets: [], recordset: undefined, output: {}, rowsAffected: [] }
+{ recordsets: [], recordset: undefined, output: {}, rowsAffected: [] }
+4  taking temp
+{ Hour: 19, Minute: 43, Seconds: 56 }
+3  taking temp
+1  taking temp
+2  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 52.739999999999995, 19, 43, 56, 1, 0)
+{ Hour: 19, Minute: 43, Seconds: 56 }
+{ Hour: 19, Minute: 43, Seconds: 56 }
+{ Hour: 19, Minute: 43, Seconds: 56 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 44.55, 19, 43, 56, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 46.91, 19, 43, 56, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.16, 19, 43, 56, 0, 0)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 44, Seconds: 6 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.21, 19, 44, 6, 1, 0)
+2  taking temp
+3  taking temp
+1  taking temp
+Promise { <pending> }
+{ Hour: 19, Minute: 44, Seconds: 6 }
+{ Hour: 19, Minute: 44, Seconds: 6 }
+{ Hour: 19, Minute: 44, Seconds: 6 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.29, 19, 44, 6, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.38, 19, 44, 6, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 51.199999999999996, 19, 44, 6, 1, 0)
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 44, Seconds: 16 }
+1  taking temp
+2  taking temp
+3  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 44, 19, 44, 16, 1, 0)
+{ Hour: 19, Minute: 44, Seconds: 16 }
+{ Hour: 19, Minute: 44, Seconds: 16 }
+{ Hour: 19, Minute: 44, Seconds: 16 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.15, 19, 44, 16, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.25, 19, 44, 16, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 50.68, 19, 44, 16, 1, 0)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 44, Seconds: 26 }
+1  taking temp
+3  taking temp
+2  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 53.4, 19, 44, 26, 2, 0)
+{ Hour: 19, Minute: 44, Seconds: 26 }
+{ Hour: 19, Minute: 44, Seconds: 26 }
+{ Hour: 19, Minute: 44, Seconds: 26 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.08, 19, 44, 26, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 44.61, 19, 44, 26, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.72, 19, 44, 26, 0, 0)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 44, Seconds: 36 }
+2  taking temp
+1  taking temp
+3  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.1, 19, 44, 36, 2, 0)
+{ Hour: 19, Minute: 44, Seconds: 36 }
+{ Hour: 19, Minute: 44, Seconds: 36 }
+{ Hour: 19, Minute: 44, Seconds: 36 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 34.09, 19, 44, 36, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 45.88, 19, 44, 36, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 999, 19, 44, 36, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 44, Seconds: 46 }
+2  taking temp
+1  taking temp
+3  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.69, 19, 44, 46, 2, 0)
+{ Hour: 19, Minute: 44, Seconds: 46 }
+{ Hour: 19, Minute: 44, Seconds: 46 }
+{ Hour: 19, Minute: 44, Seconds: 46 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.53, 19, 44, 46, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.95, 19, 44, 46, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 43.88, 19, 44, 46, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 44, Seconds: 56 }
+1  taking temp
+3  taking temp
+2  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 43.29, 19, 44, 56, 2, 0)
+{ Hour: 19, Minute: 44, Seconds: 56 }
+{ Hour: 19, Minute: 44, Seconds: 56 }
+{ Hour: 19, Minute: 44, Seconds: 56 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.18, 19, 44, 56, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 43.41, 19, 44, 56, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 34.88, 19, 44, 56, 0, 0)
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+2  taking temp
+1  taking temp
+3  taking temp
+{ Hour: 19, Minute: 45, Seconds: 6 }
+{ Hour: 19, Minute: 45, Seconds: 6 }
+{ Hour: 19, Minute: 45, Seconds: 6 }
+{ Hour: 19, Minute: 45, Seconds: 6 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 999, 19, 45, 6, 2, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 34.09, 19, 45, 6, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 46.98, 19, 45, 6, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 43.7, 19, 45, 6, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 45, Seconds: 16 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.99, 19, 45, 16, 2, 1)
+1  taking temp
+3  taking temp
+2  taking temp
+Promise { <pending> }
+{ Hour: 19, Minute: 45, Seconds: 16 }
+{ Hour: 19, Minute: 45, Seconds: 16 }
+{ Hour: 19, Minute: 45, Seconds: 16 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.06, 19, 45, 16, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 47.879999999999995, 19, 45, 16, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.54, 19, 45, 16, 0, 0)
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 45, Seconds: 26 }
+3  taking temp
+2  taking temp
+1  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 46.89, 19, 45, 26, 2, 1)
+{ Hour: 19, Minute: 45, Seconds: 26 }
+{ Hour: 19, Minute: 45, Seconds: 26 }
+{ Hour: 19, Minute: 45, Seconds: 26 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 46.06, 19, 45, 26, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.06, 19, 45, 26, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.31, 19, 45, 26, 1, 0)
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+3  taking temp
+1  taking temp
+2  taking temp
+{ Hour: 19, Minute: 45, Seconds: 36 }
+{ Hour: 19, Minute: 45, Seconds: 36 }
+{ Hour: 19, Minute: 45, Seconds: 36 }
+{ Hour: 19, Minute: 45, Seconds: 36 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 47.77, 19, 45, 36, 2, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 46.26, 19, 45, 36, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.47, 19, 45, 36, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.04, 19, 45, 36, 0, 0)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 45, Seconds: 46 }
+1  taking temp
+3  taking temp
+2  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 44.24, 19, 45, 46, 2, 1)
+{ Hour: 19, Minute: 45, Seconds: 46 }
+{ Hour: 19, Minute: 45, Seconds: 46 }
+{ Hour: 19, Minute: 45, Seconds: 46 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.15, 19, 45, 46, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.08, 19, 45, 46, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.69, 19, 45, 46, 0, 0)
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 45, Seconds: 56 }
+3  taking temp
+2  taking temp
+1  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 46.86, 19, 45, 56, 2, 1)
+{ Hour: 19, Minute: 45, Seconds: 56 }
+{ Hour: 19, Minute: 45, Seconds: 56 }
+{ Hour: 19, Minute: 45, Seconds: 56 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 47.02, 19, 45, 56, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.38, 19, 45, 56, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.16, 19, 45, 56, 1, 0)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 46, Seconds: 6 }
+1  taking temp
+2  taking temp
+3  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 44.83, 19, 46, 6, 2, 1)
+{ Hour: 19, Minute: 46, Seconds: 6 }
+{ Hour: 19, Minute: 46, Seconds: 6 }
+{ Hour: 19, Minute: 46, Seconds: 6 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.36, 19, 46, 6, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.92, 19, 46, 6, 0, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.53, 19, 46, 6, 1, 1)
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+{ Hour: 19, Minute: 46, Seconds: 16 }
+2  taking temp
+3  taking temp
+1  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 47.61, 19, 46, 16, 2, 1)
+{ Hour: 19, Minute: 46, Seconds: 16 }
+{ Hour: 19, Minute: 46, Seconds: 16 }
+{ Hour: 19, Minute: 46, Seconds: 16 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 999, 19, 46, 16, 0, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.12, 19, 46, 16, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 46.58, 19, 46, 16, 1, 0)
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+1  taking temp
+3  taking temp
+4  taking temp
+{ Hour: 19, Minute: 46, Seconds: 26 }
+{ Hour: 19, Minute: 46, Seconds: 26 }
+{ Hour: 19, Minute: 46, Seconds: 26 }
+{ Hour: 19, Minute: 46, Seconds: 26 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.13, 19, 46, 26, 0, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.42, 19, 46, 26, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 43.7, 19, 46, 26, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 999, 19, 46, 26, 2, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+3  taking temp
+1  taking temp
+{ Hour: 19, Minute: 46, Seconds: 36 }
+4  taking temp
+{ Hour: 19, Minute: 46, Seconds: 36 }
+{ Hour: 19, Minute: 46, Seconds: 36 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 33.43, 19, 46, 36, 0, 1)
+{ Hour: 19, Minute: 46, Seconds: 36 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.96, 19, 46, 36, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 46.1, 19, 46, 36, 1, 0)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.86, 19, 46, 36, 2, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+3  taking temp
+1  taking temp
+{ Hour: 19, Minute: 46, Seconds: 46 }
+4  taking temp
+{ Hour: 19, Minute: 46, Seconds: 46 }
+{ Hour: 19, Minute: 46, Seconds: 46 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.98, 19, 46, 46, 0, 1)
+{ Hour: 19, Minute: 46, Seconds: 46 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 999, 19, 46, 46, 1, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 49.919999999999995, 19, 46, 46, 1, 0)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 43.23, 19, 46, 46, 2, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+1  taking temp
+3  taking temp
+2  taking temp
+{ Hour: 19, Minute: 46, Seconds: 56 }
+4  taking temp
+{ Hour: 19, Minute: 46, Seconds: 56 }
+{ Hour: 19, Minute: 46, Seconds: 56 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 46.2, 19, 46, 56, 1, 0)
+{ Hour: 19, Minute: 46, Seconds: 56 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 43.29, 19, 46, 56, 1, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 33.08, 19, 46, 56, 0, 1)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 46.76, 19, 46, 56, 2, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+1  taking temp
+3  taking temp
+2  taking temp
+{ Hour: 19, Minute: 47, Seconds: 6 }
+4  taking temp
+{ Hour: 19, Minute: 47, Seconds: 6 }
+{ Hour: 19, Minute: 47, Seconds: 6 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 42.5, 19, 47, 6, 1, 0)
+{ Hour: 19, Minute: 47, Seconds: 6 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 46.17, 19, 47, 6, 1, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 33.56, 19, 47, 6, 0, 1)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.63, 19, 47, 6, 2, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+{ Hour: 19, Minute: 47, Seconds: 16 }
+3  taking temp
+1  taking temp
+4  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 43.57, 19, 47, 16, 1, 1)
+{ Hour: 19, Minute: 47, Seconds: 16 }
+{ Hour: 19, Minute: 47, Seconds: 16 }
+{ Hour: 19, Minute: 47, Seconds: 16 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.4, 19, 47, 16, 1, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 45.6, 19, 47, 16, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.11, 19, 47, 16, 2, 2)
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+{ Hour: 19, Minute: 47, Seconds: 26 }
+4  taking temp
+3  taking temp
+1  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.04, 19, 47, 26, 1, 1)
+{ Hour: 19, Minute: 47, Seconds: 26 }
+{ Hour: 19, Minute: 47, Seconds: 26 }
+{ Hour: 19, Minute: 47, Seconds: 26 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 46.85, 19, 47, 26, 2, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 46.31, 19, 47, 26, 1, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.43, 19, 47, 26, 1, 0)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+1  taking temp
+4  taking temp
+3  taking temp
+{ Hour: 19, Minute: 47, Seconds: 36 }
+{ Hour: 19, Minute: 47, Seconds: 36 }
+{ Hour: 19, Minute: 47, Seconds: 36 }
+{ Hour: 19, Minute: 47, Seconds: 36 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.11, 19, 47, 36, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 45.42, 19, 47, 36, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 45.05, 19, 47, 36, 2, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 44.32, 19, 47, 36, 1, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+1  taking temp
+{ Hour: 19, Minute: 47, Seconds: 46 }
+3  taking temp
+4  taking temp
+{ Hour: 19, Minute: 47, Seconds: 46 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 36.89, 19, 47, 46, 1, 1)
+{ Hour: 19, Minute: 47, Seconds: 46 }
+{ Hour: 19, Minute: 47, Seconds: 46 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.65, 19, 47, 46, 1, 0)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.69, 19, 47, 46, 1, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 44.62, 19, 47, 46, 2, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+{ Hour: 19, Minute: 47, Seconds: 56 }
+1  taking temp
+4  taking temp
+3  taking temp
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 34.01, 19, 47, 56, 1, 1)
+{ Hour: 19, Minute: 47, Seconds: 56 }
+{ Hour: 19, Minute: 47, Seconds: 56 }
+{ Hour: 19, Minute: 47, Seconds: 56 }
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.89, 19, 47, 56, 1, 0)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 46.96, 19, 47, 56, 2, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.37, 19, 47, 56, 1, 2)
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+2  taking temp
+1  taking temp
+{ Hour: 19, Minute: 48, Seconds: 6 }
+4  taking temp
+3  taking temp
+{ Hour: 19, Minute: 48, Seconds: 6 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 33.18, 19, 48, 6, 1, 1)
+{ Hour: 19, Minute: 48, Seconds: 6 }
+{ Hour: 19, Minute: 48, Seconds: 6 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 43.8, 19, 48, 6, 1, 0)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 46.38, 19, 48, 6, 2, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 44.56, 19, 48, 6, 1, 2)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+2  taking temp
+3  taking temp
+1  taking temp
+{ Hour: 19, Minute: 48, Seconds: 16 }
+{ Hour: 19, Minute: 48, Seconds: 16 }
+{ Hour: 19, Minute: 48, Seconds: 16 }
+{ Hour: 19, Minute: 48, Seconds: 16 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 43.61, 19, 48, 16, 2, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 33.87, 19, 48, 16, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 43.2, 19, 48, 16, 1, 2)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 999, 19, 48, 16, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+3  taking temp
+{ Hour: 19, Minute: 48, Seconds: 26 }
+1  taking temp
+2  taking temp
+{ Hour: 19, Minute: 48, Seconds: 26 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 43.79, 19, 48, 26, 2, 2)
+{ Hour: 19, Minute: 48, Seconds: 26 }
+{ Hour: 19, Minute: 48, Seconds: 26 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.93, 19, 48, 26, 1, 2)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.02, 19, 48, 26, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 34.73, 19, 48, 26, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+3  taking temp
+{ Hour: 19, Minute: 48, Seconds: 36 }
+1  taking temp
+2  taking temp
+{ Hour: 19, Minute: 48, Seconds: 36 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 999, 19, 48, 36, 2, 3)
+{ Hour: 19, Minute: 48, Seconds: 36 }
+{ Hour: 19, Minute: 48, Seconds: 36 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 45.95, 19, 48, 36, 1, 2)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 46.36, 19, 48, 36, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 33.54, 19, 48, 36, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+4  taking temp
+3  taking temp
+{ Hour: 19, Minute: 48, Seconds: 46 }
+2  taking temp
+1  taking temp
+{ Hour: 19, Minute: 48, Seconds: 46 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 43.43, 19, 48, 46, 2, 3)
+{ Hour: 19, Minute: 48, Seconds: 46 }
+{ Hour: 19, Minute: 48, Seconds: 46 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 48.38, 19, 48, 46, 1, 2)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 34.95, 19, 48, 46, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 45.76, 19, 48, 46, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+Promise { <pending> }
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+{
+  recordsets: [],
+  recordset: undefined,
+  output: {},
+  rowsAffected: [ 1 ]
+}
+3  taking temp
+4  taking temp
+{ Hour: 19, Minute: 48, Seconds: 56 }
+1  taking temp
+2  taking temp
+{ Hour: 19, Minute: 48, Seconds: 56 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (3, 44.65, 19, 48, 56, 1, 2)
+{ Hour: 19, Minute: 48, Seconds: 56 }
+{ Hour: 19, Minute: 48, Seconds: 56 }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (4, 44.12, 19, 48, 56, 2, 3)
+Promise { <pending> }
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (1, 44.28, 19, 48, 56, 1, 1)
+INSERT INTO dbo.Sensor_Data_Test (SensorNumber, CurrentTemp, Hour, Minute, Second, AlarmCount, ErrorCount)VALUES (2, 35.85, 19, 48, 56, 1, 1)
+Promise { <pending> }
+Promise { <pending> }
+Promise { <pending> }
